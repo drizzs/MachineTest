@@ -23,9 +23,10 @@ import java.util.stream.Collectors;
 public class MachineTest
 {
 
+    public static final String MOD_ID = "machinetest";
+    public static MachineTest instance;
 
-
-    private static final Logger LOGGER = LogManager.getLogger();
+    public static final Logger LOGGER = LogManager.getLogger(MOD_ID);
 
     public MachineTest() {
 

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:glowstone_dust",
+    "minecraft:oak_planks",
+    "minecraft:sunflower",
+    "minecraft:turtle_egg"
+  ]
+}

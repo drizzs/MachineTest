@@ -25,7 +25,7 @@ public class RecipeRegistry {
 
         LOGGER.info("Recipe types registered");
 
-        CRUCIBLESERIALIZER = register("crucibletype", new CrucibleRecipeSerializer<CrucibleRecipes>(CrucibleRecipes::new, 1));
+        CRUCIBLESERIALIZER = register("crucibletype", new CrucibleRecipeSerializer<CrucibleRecipes>(CrucibleRecipes::new));
 
         LOGGER.info("Recipe serializers registered");
     }
